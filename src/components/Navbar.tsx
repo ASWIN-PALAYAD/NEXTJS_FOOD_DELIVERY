@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* left links in above medium */}
       <div className="hidden md:flex gap-4 flex-1">
         <Link href={"/"}>Homepage</Link>
-        <Link href={"/"}>Menu</Link>
+        <Link href={"/menu"}>Menu</Link>
         <Link href={"/"}>Contact</Link>
       </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
             <Image src={'/phone.png'} alt="" width={20} height={20}/>
             <span>+91-123-123</span>
         </div>
-        {!user ? <Link href={"/"}>Login</Link> : <Link href={"/"}>Order</Link>}
+        {!user ? <Link href={"/login"}>Login</Link> : <Link href={"/"}>Order</Link>}
 
  
         

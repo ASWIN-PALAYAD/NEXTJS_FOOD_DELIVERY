@@ -21,7 +21,7 @@ const SingleProduct = () => {
         <Price price={singleProduct.price} id={singleProduct.id}  options={singleProduct.options}/>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default SingleProduct;
